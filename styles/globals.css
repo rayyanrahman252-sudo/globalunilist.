@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background-color: #050507;
+  color: #f4f4f5;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+/* Strict global typography formatting */
+h1, h2, h3, h4, p, span, div, text, input, button, a {
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+h1 { font-size: 4.2rem; text-shadow: 0 4px 20px rgba(0,0,0,0.6); }
+h2 { font-size: 2.6rem; }
+h3 { font-size: 1.85rem; }
+
+/* Fixing dark and dull text readability bugs */
+.text-zinc-400 {
+  color: #f4f4f5 !important; /* Maximum brightness white */
+}
+.text-zinc-300 {
+  color: #e4e4e7 !important; /* Highly visible structural light grey */
+}
+.text-zinc-500 {
+  color: #c4c4c6 !important; /* Visible clean silver captions instead of charcoal */
+}
+
+/* Custom Scrollbar layout */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #050507;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+  border: 2px solid #050507;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
