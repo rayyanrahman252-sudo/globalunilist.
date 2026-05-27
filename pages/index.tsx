@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useMemo } from "react";
-import { ContainerScroll } from "@/components/ui/container-scroll-animation";
+import { ContainerScroll } from "../components/ui/container-scroll-animation";
 
 // ==========================================
 // SYSTEM TYPE INTERFACE DEFINITIONS
